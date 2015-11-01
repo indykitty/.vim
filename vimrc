@@ -1,3 +1,12 @@
+" Pathogen load
+filetype off
+
+call pathogen#infect()
+call pathogen#helptags()
+
+filetype plugin indent on 
+syntax on
+
 " docs.python-guide.org/en/latest/dev/env/
 
 " lines longer than 79 columns will be broken
