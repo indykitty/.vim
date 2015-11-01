@@ -4,6 +4,7 @@ filetype off
 call pathogen#infect()
 call pathogen#helptags()
 
+filetype indent on
 filetype plugin indent on 
 syntax on
 
@@ -54,3 +55,10 @@ set showmatch
 
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
+
+
+
+" tuts.plus 
+
+" automatically formats html that is pasted into vim
+autocmd BufRead,BufWritePre *.html normal gg=G
