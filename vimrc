@@ -1,3 +1,8 @@
+" Folding
+" set foldmethod=indent
+" set foldcolumn=1
+" set mouse=a
+
 " Pathogen load
 filetype off
 
@@ -61,4 +66,4 @@ let python_highlight_all = 1
 " tuts.plus 
 
 " automatically formats html that is pasted into vim
-autocmd BufRead,BufWritePre *.html normal gg=G
+" autocmd BufRead,BufWritePre *.html normal gg=G
